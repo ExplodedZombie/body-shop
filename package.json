@@ -1,7 +1,6 @@
 {
   "name": "rithm-body-shop",
   "version": "1.0.0",
-  "description": "",
   "main": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -17,5 +16,14 @@
     "mongoose": "^4.11.11",
     "morgan": "^1.8.2",
     "pug": "^2.0.0-rc.4"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ExplodedZombie/body-shop.git"
+  },
+  "bugs": {
+    "url": "https://github.com/ExplodedZombie/body-shop/issues"
+  },
+  "homepage": "https://github.com/ExplodedZombie/body-shop#readme",
+  "description": ""
 }

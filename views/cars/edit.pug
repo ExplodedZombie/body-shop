@@ -1,0 +1,12 @@
+extends ../base.pug
+block content
+  form(action=`/drivers/${car.driver.id}/cars/${car.id}?_method=PATCH` method="POST")
+    label(for="make") Make:
+    input(type="text" name="make")
+    label(for="make") Model:
+    input(type="text" name="model")
+    label(for="make") Year:
+    input(type="text" name="year")
+    button Submit
+  form(action=`/drivers/${car.driver.id}/cars/${car.id}?_method=DELETE` method="POST")
+    button Delete
